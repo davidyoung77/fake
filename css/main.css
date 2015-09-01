@@ -1,0 +1,205 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 300;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.clear:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.social {
+  background-color: #8a8a89;
+}
+
+.nav img {
+  padding: 5px 0;
+}
+
+.nav .menu {
+  float: right;
+  display: block;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav a {
+  display: inline-block;
+  margin-right: -3px;
+  color: #5a5a5a;
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: right;
+  display: inline-block;
+  text-align: right;
+  margin-left: 50px;
+}
+
+.nav a:hover {
+  color: #5c9dd9;
+}
+
+.col-1 {
+  display: block;
+  max-width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.col-1 img {
+  width: 100%;
+}
+
+.col-1 h2 {
+  text-align: center;
+}
+
+.col-2 {
+  display: block;
+  max-width: 50%;
+  float: right;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.col-2 img {
+  width: 100%;
+}
+
+.col-2 h2 {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #efefef;
+  overflow: auto;
+}
+
+.jumbotron .container {
+  position: relative;
+  margin: 50px auto 100px;
+  height: 500px;
+}
+
+.jumbotron .slider-nav {
+  display: block;
+  clear: both;
+  width: 100%;
+  text-align: center;
+}
+
+.jumbotron .slider-nav .owl-dot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 30px 3px;
+  background: #333;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+
+.jumbotron .slider-nav .owl-dot.active {
+  background: #999;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 225px;
+  margin: 0 auto;
+}
+
+.logistics {
+  height: 648px;
+  background-image: url("../img/logistics.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+}
+
+.opportunity {
+  padding-bottom: 20px
+}
+.listitem {
+  position: relative;
+}
+
+.listitem img{
+  position: absolute;
+  float: left;
+  padding-top: 25px;
+}
+
+.listitem .pull-left {
+  padding-left: 100px;
+}
+
+.signup {
+  background-color: #efefef;
+  box-shadow: inset 0 100px 100px -80px rgba(0,0,0,0.1)
+}
+
+.signup ul {
+  width: 750px;
+  margin: 0 auto;
+  padding: 46px 0px;
+}
+
+.signup h1 {
+  text-align: center;
+}
+
+.signup p {
+  text-align: center;
+}
+
+.formsignup input {
+  width: 772px;
+  padding: 7px 15px;
+}
+
+.buttonsignup {
+  width: 202px;
+  font-size: 26px;
+  margin: 7px auto;
+  display: block;
+  border: none;
+  text-transform: uppercase;
+  line-height: 40px;
+  color: #fff;
+}
+
+.footer {
+  background-color: #8c8d8d;
+}
+
+.footer p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 27px; 
+  margin-top: 0px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 60px;
+  font-size: 27px; 
+}
